@@ -13,6 +13,7 @@
 		2CAA7F8929795CE500ED78E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAA7F8729795CE500ED78E7 /* Main.storyboard */; };
 		2CAA7F8B29795CE700ED78E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CAA7F8A29795CE700ED78E7 /* Assets.xcassets */; };
 		2CAA7F8E29795CE700ED78E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAA7F8C29795CE700ED78E7 /* LaunchScreen.storyboard */; };
+		2CAA7F96297976BC00ED78E7 /* UrlSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA7F95297976BC00ED78E7 /* UrlSessionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2CAA7F8A29795CE700ED78E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CAA7F8D29795CE700ED78E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CAA7F8F29795CE700ED78E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CAA7F95297976BC00ED78E7 /* UrlSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlSessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2CAA7F8129795CE500ED78E7 /* AppDelegate.swift */,
 				2CAA7F8329795CE500ED78E7 /* SceneDelegate.swift */,
 				2CAA7F8529795CE500ED78E7 /* ViewController.swift */,
+				2CAA7F95297976BC00ED78E7 /* UrlSessionManager.swift */,
 				2CAA7F8729795CE500ED78E7 /* Main.storyboard */,
 				2CAA7F8A29795CE700ED78E7 /* Assets.xcassets */,
 				2CAA7F8C29795CE700ED78E7 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CAA7F96297976BC00ED78E7 /* UrlSessionManager.swift in Sources */,
 				2CAA7F8629795CE500ED78E7 /* ViewController.swift in Sources */,
 				2CAA7F8229795CE500ED78E7 /* AppDelegate.swift in Sources */,
 				2CAA7F8429795CE500ED78E7 /* SceneDelegate.swift in Sources */,
