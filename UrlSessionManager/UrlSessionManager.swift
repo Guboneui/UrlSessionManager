@@ -13,3 +13,8 @@ enum HttpMethod: String {
   case PUT = "PUT"
   case DELETE = "DELETE"
 }
+
+struct APIError: Codable, Error {
+  var message: String?
+  var status: Int?
+}
